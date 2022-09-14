@@ -27,7 +27,7 @@ def von_karman(L, D, xarr):
 if __name__ == '__main__':
     L = 15  # Input length
     D = 3.12  # Input base diameter
-    res = 200  # Resolution of points, small = accruacy
+    res = 200  # Resolution of points, small = accuracy
 
     xarr = np.linspace(0, L, res)  # Generates length array
 
